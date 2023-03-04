@@ -812,3 +812,57 @@ background-color: var(--hover-color);
 color: var(--secondary-font-color);
 
 }
+
+.subscribe-input {
+ margin-left: 80;
+  width: 264px; 
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.subscribe-field {
+
+ 
+}
+
+.footer-sub-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.subscribe-lable {
+  
+  position: absolute;
+  left: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+.button-subscribe {
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  background-color: #4D5AE5;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  color: #FFFFFF;
+  
+}
