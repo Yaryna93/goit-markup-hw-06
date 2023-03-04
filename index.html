@@ -415,22 +415,22 @@
             </li>
           </ul>
         </div>
+        <section class="subscribe">
+          <form class="subscribe-form">
+            <div class="subscribe-field">
+              <h3 class="footer-sub-title">Subscribe</h3>
+              <input
+                type="email"
+                name="subscribe-email"
+                class="subscribe-input"
+                id="subscribe-email"
+                placeholder="E-mail"
+              />
+            </div>
+            <button class="button-subscribe" type="submit">Subscribe</button>
+          </form>
+        </section>
       </div>
-      <section class="subscribe">
-        <form class="subscribe-form">
-          <div class="subscribe-field">
-            <p class="footer-sub-title">Subscribe</p>
-            <input
-              type="email"
-              name="subscribe-email"
-              class="subscribe-input"
-              id="subscribe-email"
-            />
-            <lable class="subscribe-label" for="subscribe-email">Email</lable>
-          </div>
-          <button class="button-subscribe" type="submit">Subscribe</button>
-        </form>
-      </section>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -499,9 +499,11 @@
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a href="">Privacy Policy</a></label
-            >
+              <p>
+                I accept the terms and conditions of the
+                <a href="">Privacy Policy</a>
+              </p>
+            </label>
           </div>
           <button class="button-backdrop" type="submit">Send</button>
         </form>

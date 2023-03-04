@@ -587,6 +587,7 @@ padding-bottom: 100px;
   align-items: baseline;
   max-width: 1158px;
   margin: 0 auto;
+  justify-content: space-between;
 }
 
 .footer-soc-title {
@@ -774,6 +775,11 @@ position: relative;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
+.check-text {
+  display: flex;
+
+}
+
 .check-text span {
 width: 16px;
 height: 16px;
@@ -785,6 +791,8 @@ align-items: center;
 justify-content: center;
 fill:transparent;
 }
+
+
 
 .input-check:checked + .check-text span {
   background-color: #404BBF;
@@ -813,18 +821,20 @@ color: var(--secondary-font-color);
 
 }
 
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+
+}
+
 .subscribe-input {
- margin-left: 80;
+  
+  
   width: 264px; 
   height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   background-color: transparent;
-}
-
-.subscribe-field {
-
- 
 }
 
 .footer-sub-title {
@@ -836,23 +846,12 @@ color: var(--secondary-font-color);
   letter-spacing: 0.02em;
   color: #FFFFFF;
   margin-bottom: 16px;
-}
-
-.subscribe-lable {
   
-  position: absolute;
-  left: 0;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 2;
-  align-items: center;
-  letter-spacing: 0.04em;
-  color: rgba(255, 255, 255, 0.6);
 }
 
 
 .button-subscribe {
-  display: block;
+  margin-top: 35px;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -864,5 +863,6 @@ color: var(--secondary-font-color);
   border: none;
   cursor: pointer;
   color: #FFFFFF;
+  margin-left: 24px;
   
 }
