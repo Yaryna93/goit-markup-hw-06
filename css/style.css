@@ -730,6 +730,8 @@ padding-bottom: 100px;
   letter-spacing: 0.04em;
   color: #8E8F99;
   display: block;
+  margin-bottom: 4px;
+  margin-top: 8px;
 }
 
 .modal-input ::placeholder {
@@ -746,7 +748,7 @@ padding-bottom: 100px;
   background: #FCFCFC;
   background-color: transparent;
   outline: transparent;
-  padding: 16px;
+  padding: 8px 16px;
   resize: none;
 }
 
@@ -788,7 +790,7 @@ position: relative;
 
 }
 
-.check-text span {
+.check-frame {
 width: 16px;
 height: 16px;
 border: 1.25px solid var(--primary-color);
@@ -802,7 +804,7 @@ fill:transparent;
 
 
 
-.input-check:checked + .check-text span {
+.input-check:checked + .check-frame {
   background-color: var(--hover-color);
   border: none;
   fill: var(--secondory-color);
