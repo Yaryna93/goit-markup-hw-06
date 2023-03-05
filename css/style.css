@@ -219,6 +219,9 @@ margin-right: 40px;
 }
 
 .button-hero {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
   padding: 16px 32px;
   border: none;
@@ -808,7 +811,10 @@ fill:transparent;
 }
 
 .button-backdrop {
+  font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
   padding: 16px 32px;
   border: none;
