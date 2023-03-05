@@ -666,7 +666,7 @@ padding-bottom: 100px;
  .modal-close {
   width: 24px;
   height: 24px;
-  background: #E7E9FC;
+  background: var(--footer-text);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   display: flex;
@@ -697,7 +697,7 @@ padding-bottom: 100px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: var(--primary-color);
   text-align: center;
   margin-bottom: 16px;
 }
@@ -715,12 +715,12 @@ padding-bottom: 100px;
 }
 
 .modal-input:focus {
-  border: 1px solid #4D5AE5;
+  border: 1px solid var(--accent-color);
   border-radius: 4px;
 }
 
 .modal-input:focus + .modal-icon {
-  fill: #4D5AE5;
+  fill:var(--accent-color);
 }
 
 .input-text {
@@ -787,7 +787,7 @@ position: relative;
 .check-text span {
 width: 16px;
 height: 16px;
-border: 1.25px solid #2E2F42;
+border: 1.25px solid var(--primary-color);
 border-radius: 2px;
 margin-right: 8px;
 display: flex;
@@ -799,9 +799,9 @@ fill:transparent;
 
 
 .input-check:checked + .check-text span {
-  background-color: #404BBF;
+  background-color: var(--hover-color);
   border: none;
-  fill: #F4F4FD;
+  fill: var(--secondory-color);
 }
 
 .button-backdrop {
@@ -849,7 +849,7 @@ color: var(--secondary-font-color);
 }
 
 .subscribe-input:focus {
-  border: 1px solid #4D5AE5;
+  border: 1px solid var(--accent-color);
   border-radius: 4px;
   outline: none;
 }
@@ -859,7 +859,7 @@ color: var(--secondary-font-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
+  color: var(--secondary-font-color);
   margin-bottom: 16px;
   
 }
@@ -873,23 +873,23 @@ color: var(--secondary-font-color);
   padding: 8px 24px;
   width: 165px;
   height: 40px;
-  background-color: #4D5AE5;
+  background-color: var(--accent-color);
   border-radius: 4px;
   border: none;
   cursor: pointer;
-  color: #FFFFFF;
+  color: var(--secondary-font-color);
   text-align: center;
   line-height: 1.5;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
+  color: var(--secondary-font-color);
   gap: 16px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-subscribe :hover {
-background-color: #404BBF;
+.button-subscribe:hover {
+background-color: var(--hover-color);
 }
 
 .subscribe-icon {
