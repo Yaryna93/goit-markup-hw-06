@@ -587,7 +587,7 @@ padding-bottom: 100px;
   align-items: baseline;
   max-width: 1158px;
   margin: 0 auto;
-  justify-content: space-between;
+  
 }
 
 .footer-soc-title {
@@ -601,7 +601,7 @@ padding-bottom: 100px;
 
 .footer-soc {
   margin-left: 120px;
-  margin-right: 80px;
+  margin-right: auto;
 }
 
  .footer-soc-list {
@@ -726,11 +726,10 @@ padding-bottom: 100px;
 .input-text {
   font-weight: 400;
   font-size: 12px;
-  margin-bottom: 4px;
   line-height: 16px;
   letter-spacing: 0.04em;
   color: #8E8F99;
-  display: inline-block;
+  display: block;
 }
 
 .modal-input ::placeholder {
@@ -739,6 +738,7 @@ padding-bottom: 100px;
 }
 
 .modal-message {
+  display: block;
   width: 360px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -750,13 +750,17 @@ padding-bottom: 100px;
   resize: none;
 }
 
+.modal-field {
+  margin-top: 8px;
+}
 
+.modal-field-com {
+  margin-bottom: 16px;
+}
 
 .input-texts {
 font-weight: 400;
 font-size: 12px;
-margin-bottom: 4px;
-margin-top: 8px;
 line-height: 14px;
 letter-spacing: 0.01em;
 color: #8E8F99;
@@ -819,6 +823,9 @@ fill:transparent;
   min-width: 169px;
 }
 
+.policy-text {
+  color: var(--accent-color);
+}
 .button-backdrop:is(:hover, :focus) {
 background-color: var(--hover-color);
 color: var(--secondary-font-color);
@@ -834,15 +841,13 @@ color: var(--secondary-font-color);
 .subscribe-input {
   width: 264px; 
   height: 40px;
-  padding: 16px 8px;
+  padding: 8px 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
-  font-weight: 400;
   font-size: 12px;
   line-height: 2;
-  display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: rgba(255, 255, 255, 0.6);
@@ -869,16 +874,13 @@ color: var(--secondary-font-color);
   font-weight: 500;
   display: flex;
   justify-content: center;
-  align-items: center;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background-color: var(--accent-color);
   border-radius: 4px;
   border: none;
   cursor: pointer;
-  color: var(--secondary-font-color);
-  text-align: center;
   line-height: 1.5;
   align-items: center;
   text-align: center;
@@ -888,7 +890,7 @@ color: var(--secondary-font-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-subscribe:hover {
+.button-subscribe:is(:focus, :hover) {
 background-color: var(--hover-color);
 }
 
