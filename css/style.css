@@ -831,6 +831,7 @@ color: var(--secondary-font-color);
 .subscribe-input {
   width: 264px; 
   height: 40px;
+  padding: 16px 8px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -861,7 +862,8 @@ color: var(--secondary-font-color);
 
 
 .button-subscribe {
-  flex-direction: row;
+  font-weight: 500;
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 8px 24px;
@@ -872,20 +874,15 @@ color: var(--secondary-font-color);
   border: none;
   cursor: pointer;
   color: #FFFFFF;
-  
-}
-
-.sub-text {
-  font-weight: 500;
-  font-size: 16px;
+  text-align: center;
   line-height: 1.5;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
   color: #FFFFFF;
-  
+  gap: 16px;
 }
+
 
 .subscribe-icon {
  
