@@ -65,7 +65,7 @@
     <main>
       <section class="projects">
         <div class="container">
-          <h1 class="visually-hidden">List of Projects</h1>
+          <h1 class="hidden">List of Projects</h1>
           <ul class="filter-list list">
             <li class="filter-item">
               <button class="filter-button filter-current" type="button">
@@ -317,6 +317,25 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="subscribe-field">
+          <h3 class="footer-sub-title">Subscribe</h3>
+          <form class="subscribe-form">
+            <input
+              type="email"
+              name="subscribe-email"
+              class="subscribe-input"
+              id="subscribe-email"
+              placeholder="E-mail"
+            />
+
+            <button class="button-subscribe" type="submit">
+              <span class="sub-text">Subscribe</span>
+              <svg class="subscribe-icon" width="24" height="20">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
