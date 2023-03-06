@@ -736,8 +736,8 @@ padding-bottom: 100px;
   font-weight: 400;
   color: #8E8F99;
   display: block;
-  margin-bottom: 4px;
-  margin-top: 8px;
+ 
+ 
 }
 
 .modal-input ::placeholder {
@@ -759,11 +759,13 @@ padding-bottom: 100px;
 
 .modal-field {
   margin-top: 8px;
+ 
 }
-
 .modal-field-com {
+  margin-top: 8px;
   margin-bottom: 16px;
 }
+
 
 .input-texts {
 font-weight: 400;
